@@ -73,5 +73,6 @@ console.log(search.trimStart()); // 2.17 trimEnd
 console.log(search.trimEnd()); // 2.18 substring
 
 console.log(hobby.substring("abc", 20));
-var account = 10;
+var account = 10; // 2.19 toString
+
 console.log(account.toString());

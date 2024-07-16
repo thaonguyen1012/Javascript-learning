@@ -70,6 +70,7 @@ console.log(search.trimEnd());
 // 2.18 substring
 console.log(hobby.substring("abc", 20));
 const account = 10;
+// 2.19 toString
 console.log(account.toString());
 
 
