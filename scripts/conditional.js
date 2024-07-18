@@ -6,20 +6,20 @@
 /*if(conditional) {}
 else if(somethingElseTrue) {}
 else {}*/
-// {
-//     const myScore = 7;
-//     if (myScore < 5) {
-//         console.log("Oh no!");
-//     } else if (myScore >= 5 && myScore <= 7) {
-//         console.log("Oh yeah");
-//     } else if (myScore >= 8 && myScore <= 9) {
-//         console.log("I will have special present from my mother");
-//     } else {
-//         console.log(
-//             "I will have special present from both my mother and my father also my brother"
-//         );
-//     }
-// }
+{
+    const myScore = 7;
+    if (myScore < 5) {
+        console.log("Oh no!");
+    } else if (myScore >= 5 && myScore <= 7) {
+        console.log("Oh yeah");
+    } else if (myScore >= 8 && myScore <= 9) {
+        console.log("I will have special present from my mother");
+    } else {
+        console.log(
+            "I will have special present from both my mother and my father also my brother"
+        );
+    }
+}
 
 //switch-case
 // Nếu sử dụng điều kiện dựa vào biến trong `case` thì switch phải có giá trị (true)
@@ -85,10 +85,6 @@ switch (true) {
 {
     const age = 23;
     const ticketType =
-        age < 18 
-        ? "child" 
-        : age >= 18 && age < 60 
-        ? "adult" 
-        : "senior";
+        age < 18 ? "child" : age >= 18 && age < 60 ? "adult" : "senior";
     console.log("ticket type:", ticketType);
 }

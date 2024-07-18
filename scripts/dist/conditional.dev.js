@@ -9,22 +9,21 @@
 /*if(conditional) {}
 else if(somethingElseTrue) {}
 else {}*/
-// {
-//     const myScore = 7;
-//     if (myScore < 5) {
-//         console.log("Oh no!");
-//     } else if (myScore >= 5 && myScore <= 7) {
-//         console.log("Oh yeah");
-//     } else if (myScore >= 8 && myScore <= 9) {
-//         console.log("I will have special present from my mother");
-//     } else {
-//         console.log(
-//             "I will have special present from both my mother and my father also my brother"
-//         );
-//     }
-// }
-//switch-case
+{
+  var _myScore = 7;
+
+  if (_myScore < 5) {
+    console.log("Oh no!");
+  } else if (_myScore >= 5 && _myScore <= 7) {
+    console.log("Oh yeah");
+  } else if (_myScore >= 8 && _myScore <= 9) {
+    console.log("I will have special present from my mother");
+  } else {
+    console.log("I will have special present from both my mother and my father also my brother");
+  }
+} //switch-case
 // Nếu sử dụng điều kiện dựa vào biến trong `case` thì switch phải có giá trị (true)
+
 var myScore = 7;
 
 switch (true) {
@@ -47,9 +46,9 @@ switch (true) {
 
 
 {
-  var _myScore = 7;
+  var _myScore2 = 7;
 
-  switch (_myScore) {
+  switch (_myScore2) {
     case 5:
       console.log("Oh no!");
       break;
